@@ -1,35 +1,27 @@
-<nb-layout>
+<!-- <nb-layout>
 
     <nb-layout-header fixed>
       30天原子習慣挑戰
-      <!-- <nb-select placeholder="主題樣式" >
-        <nb-option value="default">淺色</nb-option>
-        <nb-option value="dark">深色</nb-option>
-      </nb-select> -->
     </nb-layout-header>
   
     <nb-layout-column>
-      <router-outlet></router-outlet>
-      <!-- <div class="row">
-        <div class="col-md-12">
-          <ul>
-            <li class="text" *ngFor="let item of items | async">
-              {{item.id}}
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-12">1</div>
-        <div class="col-md-12">1</div>
-        <div class="col-md-12">1</div>
-        <div class="col-md-12">1</div>
-        
-      </div> -->
+     ss
+     
     </nb-layout-column>
     
   
     <nb-layout-footer fixed>
       ahahaha
-      <!-- create by jason zheng <nb-icon icon="github"></nb-icon> -->
     </nb-layout-footer>
   
-  </nb-layout>
+  </nb-layout> -->
+  <div fullpage id="fullpage2" [options]="config" (ref)="getRef($event)">
+    <div class="section"><h1>Section 1</h1></div>
+	<div class="section"><h1>Section 2</h1></div>
+	<div class="section">
+		<div class="slide"><h1>Slide 2.1</h1></div>
+		<div class="slide"><h1>Slide 3.2</h1></div>
+		<div class="slide"><h1>Slide 3.3</h1></div>
+	</div>
+	<div class="section"><h1>Section 4</h1></div>
+</div>
